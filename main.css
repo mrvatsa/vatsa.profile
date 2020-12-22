@@ -1,0 +1,67 @@
+:root{
+    --primary: #9e2c24;
+    --text: #bd9595;
+    --back: #03022e;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialised;
+}
+header{
+    background: var(--back);
+}
+
+body{
+    background-color: var(--primary);
+}
+
+#name{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#1a0703;
+    margin: 10px;
+    text-align: center;
+    font-weight: 800;
+}
+
+#main{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 80%;
+    padding: 25px;
+    border-radius: 20px;
+    color: var(--back);
+    background-color: var(--text);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#content{
+    font-size: 25px;
+    text-align: center;
+}
+#img1{
+    height: 325px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    display: -moz-box;
+    box-shadow: 5px 5px 5px 2px;
+}
+.img{
+    height: 50px;
+	width: 50px;
+	margin: 15px;
+}
+h3, h2{
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+#list{
+    text-align: left;
+}
